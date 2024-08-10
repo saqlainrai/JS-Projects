@@ -1,0 +1,30 @@
+body {
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.center {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#banner{
+    font-size: 30px;
+}
+#clock, button {
+    font-size: 30px;
+    background-color: #ffa500;
+    color: #2d2d2d;
+    font-weight: bold;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 80px;
+    background-color: #73bcf7;
+    /* font-weight: normal; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
