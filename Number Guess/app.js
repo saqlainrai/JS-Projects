@@ -1,4 +1,4 @@
-let randomNumber = parseInt(Math.random() * 100 + 1);
+let randomNumber = parseInt(Math.random() * 100 + 1);        // parse int will ignore floating value
 
 const submit = document.querySelector('#btn');
 const userInput = document.querySelector('#guessField');
@@ -11,7 +11,6 @@ const p = document.createElement('p');
 
 let prevGuess = [];
 let numGuess = 1;
-
 let playGame = true;
 
 if (playGame) {
